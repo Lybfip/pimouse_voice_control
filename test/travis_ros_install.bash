@@ -18,5 +18,5 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
 source /opt/ros/kinetic/setup.bash
 catkin_init_workspace
-cd ~/katkin_ws
+cd ~/catkin_ws
 catkin_make
