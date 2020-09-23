@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find pimouse_ros)/launch/pimouse.launch" />
+  <node pkg="pimouse_vice_control" name="voice_control" type="voice_control.py" required="true" />
+  <test test-name="test_voice_control" pkg="pimouse_voice_conrol" type="travis_test_voice_control.py" />
+</launch>
